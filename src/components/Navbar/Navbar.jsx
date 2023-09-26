@@ -50,7 +50,7 @@ const Navbar = () => {
         cursor="pointer"
       />
 
-      {!pageLoading && (
+  
         <Box display="flex" gap={4}>
           <Button colorScheme="blue" onClick={() => router.push("/")}>
             Home
@@ -84,7 +84,7 @@ const Navbar = () => {
             </Button>
           )}
         </Box>
-      )}
+      
     </Box>
   );
 };
